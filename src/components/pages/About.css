@@ -1,0 +1,449 @@
+.about{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/back89.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutus{
+  width: 30%;
+  height: 35vh;
+  object-fit: fill;
+  clip-path: circle();
+  position: absolute;
+  top: 25%;
+  left: 2%;
+  transform: translate(-50%,-505);
+}
+.aboutust{
+width: 30%;
+  height: 35vh;
+  object-fit: fill;
+  clip-path: circle();
+  position: absolute;
+  top: 25%;
+  left: 2%;
+  transform: translate(-50%,-505);
+
+}
+.fotres{
+margin-top: 230%;
+}
+
+.h81{
+  display: flex;
+  flex-direction: column;
+}
+.addons{
+  margin-top: -3%;
+  margin-left: 65%;
+  display: flex;
+  flex-direction: column;
+}
+.addons .g{
+  color: rgb(247, 202, 3);
+  text-decoration: none;
+  list-style: none;
+  font-weight:bolder;
+  font-size: 25px;
+}
+.grid{
+  background-image: url(../../assets/back103.jpg);
+  z-index: 12;
+  border-radius: 20px;
+  width: 90%;
+  height: 100vh;
+  margin-top: 2%;
+  margin-left: 25%;
+}
+#sectiontwo {
+  width: 90%;
+  height: 100vh;
+  margin-top: 2%;
+  margin-left: -10%;
+  position: relative;
+}
+.contents{
+    width: 100%;
+    height: 100vh;
+    top: 110%;
+}
+#svgs{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: black;
+  
+}
+#svgs path:nth-child(1){
+  stroke-dasharray: 100px;
+  
+}
+#svgs path:nth-child(2){
+  stroke-dasharray: 159.5px;
+  stroke-dashoffset: 159.5px;
+  animation: lines 2s ease forwards, fill 5s linear forwards 0.3s;
+}
+#svgs path:nth-child(3){
+  stroke-dasharray: 148.45px;
+  stroke-dashoffset: 148.45px;
+  animation: lines 2s ease forwards 0.3s,fill 5s linear forwards 0.6s;
+}
+#svgs path:nth-child(4){
+  stroke-dasharray: 134.5px;
+  stroke-dashoffset: 134.5px;
+  animation: lines 2s ease forwards 0.6s,fill 5s linear forwards 0.9s;
+}
+#svgs path:nth-child(5){
+  stroke-dasharray: 221.5px;
+  stroke-dashoffset: 221.5px;
+  animation: lines 2s ease forwards 0.9s,fill 5s linear forwards 1.2s;
+}
+#svgs path:nth-child(6){
+    stroke-dasharray: 163.45px;
+    stroke-dashoffset: 163.45px;
+    animation: lines 2s ease forwards 1.2s,fill 5s linear forwards 1.5s;
+}
+#svgs path:nth-child(7){
+  stroke-dasharray: 185.5px;
+  stroke-dashoffset: 185.5px;
+  animation: lines 2s ease forwards 1.5s,fill 5s linear forwards 1.8s;
+}
+#svgs path:nth-child(8){
+  stroke-dasharray: 134.45px;
+   stroke-dashoffset: 134.45px; 
+   animation: lines 2s ease forwards 1.8s,fill 5s linear forwards 2.1s;
+}
+#svgs path:nth-child(9){
+  stroke-dasharray: 163.45px;
+  stroke-dashoffset: 163.45px;
+  animation: lines 2s ease forwards 2.1s,fill 5s linear forwards 2.4s;
+}
+#svgs path:nth-child(10){
+  stroke-dasharray: 159.5px;
+  stroke-dashoffset: 159.5px;
+  animation: lines 2s ease forwards 2.4s,fill 5s linear forwards 2.7s;
+}
+#svgs path:nth-child(11){
+  stroke-dasharray: 185.5px;
+  stroke-dashoffset: 185.5px;
+  animation: lines 2s ease forwards 2.7s,fill 5s linear forwards 3s;
+}
+#svgs path:nth-child(12){
+  stroke-dasharray: 159.5px;
+  stroke-dashoffset: 159.5px;
+  animation: lines 2s ease forwards 3s,fill 5s linear forwards 3.3s;
+}
+#svgs path:nth-child(13){
+  stroke-dasharray: 214.5px;
+  stroke-dashoffset: 214.5px;
+  animation: lines 2s ease forwards 3.3s,fill 5s linear forwards 3.6s;
+}
+#svgs path:nth-child(14){
+  stroke-dasharray: 163.45px;
+    stroke-dashoffset: 163.45px;
+    animation: lines 2s ease forwards 3.6s,fill 5s linear forwards 3.9s;
+}
+#svgs path:nth-child(15){
+  stroke-dasharray: 214.5px;
+  stroke-dashoffset: 214.5px;
+  animation: lines 2s ease forwards 3.9s,fill 5s linear forwards 4.2s;
+}
+#svgs path:nth-child(16){
+  stroke-dasharray: 147.5px;
+  stroke-dashoffset: 147.5px;
+  animation: lines 2s ease forwards 4.2s,fill 5s linear forwards 4.5s;
+}
+#svgs path:nth-child(17){
+  stroke-dasharray: 221.5px;
+  stroke-dashoffset: 221.5px;
+  animation: lines 2s ease forwards 4.5s,fill 5s linear forwards 4.8s;
+}
+#svgs path:nth-child(18){
+  stroke-dasharray: 148.45px;
+  stroke-dashoffset: 148.45px;
+  animation: lines 2s ease forwards 4.8s,fill 5s linear forwards 5.1s;
+}
+@keyframes lines {
+  to{
+      stroke-dashoffset: 0;
+  }
+}
+@keyframes fill {
+  from{
+      fill: transparent;
+  }
+  to{
+      fill: #fff;
+  }
+}
+
+.boxes{
+  margin: 0px;
+  background: rgba(255, 255, 255, 0.4);
+  height: 100vh;
+  width: 50%;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.50);
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  position: relative;
+  
+}
+
+.context{
+  background-image: url(../../assets/mainba2.jpg);
+  width: 100%;
+  height: 450vh;
+  color: aliceblue;
+  
+}
+
+.mhead{
+   font-size: 3rem;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+    width: 500px;
+    height: 100px;
+    
+}
+.mtext{
+  position: absolute;
+    top: 130px;
+    left: 30%;
+    z-index: 10;
+    width: 50%;
+    height: 415px;
+    overflow: hidden;
+}
+.mtext p{
+  font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    opacity: 0.8;
+    line-height: 30px;
+}
+.mtext p span{
+  position: absolute;
+}
+.slide-text {
+  position: absolute;
+  top: -150px;
+  left: 22%;
+  z-index: 9;
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  opacity: 0.1 !important;
+  display: none;
+}
+.slide-text h4 {
+  color: #fff;
+  font-size: 100px;
+  position: relative;
+}
+.slide-text h4 span {
+  position: absolute;
+}
+.ftt{
+  top: 200px;
+}
+
+@media only screen and (min-width:320px) and (max-width:520px){
+  .about{
+    margin-top: -12%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/tshirt1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .aboutus{
+    width: 0%;
+}
+.fotres{
+  display: none;
+}
+  #sectiontwo {
+    width: 90%;
+    height: 100vh;
+    margin-top: 2%;
+    margin-left: -10%;
+    position: relative;
+  }
+  
+  
+  #svgs{
+    width: 300px;
+    height: 310px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+  }
+  .boxes{
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.50);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    z-index: 12;
+    border-radius: 20px;
+    width: 90%;
+    height: 100vh;
+  }
+  
+  
+  .grid{
+    background-image: url(../../assets/back103.jpg);
+    z-index: 12;
+    border-radius: 20px;
+    width: 90%;
+    height: 100vh;
+    margin-top: 2%;
+    margin-left: 25%;
+  }
+  
+  .mhead{
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+   width: 220px;
+   height: 50px;
+  }
+  .addons{
+    margin-top: -3%;
+    margin-left: 65%;
+    display: flex;
+    flex-direction: column;
+  }
+  .addons .g{
+    color: rgb(247, 202, 3);
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+  }
+  .mtext{
+      text-align: justify;
+      top: 130px;
+      left: 10%;
+      z-index: 10;
+      width: 80%;
+      height: 550px;
+      overflow: hidden;
+  }
+  .mtext p{
+    font-size: 14px;
+      color: rgb(8, 6, 6);
+      position: relative;
+      line-height: 20px;
+  }
+  .mtext p span{
+    position: absolute;
+  }
+  
+  
+}
+@media only screen and (min-width:521px) and (max-width:780px){
+  .about{
+    margin-top: -12%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/tshirt1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .aboutus{
+    width: 0%;
+}
+.fotres{
+  display: none;
+}
+  #sectiontwo {
+    width: 90%;
+    height: 100vh;
+    margin-top: 2%;
+    margin-left: -10%;
+    position: relative;
+  }
+  
+  
+  #svgs{
+    width: 300px;
+    height: 310px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+  }
+  .boxes{
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.50);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    z-index: 12;
+    border-radius: 20px;
+    width: 90%;
+    height: 100vh;
+  }
+  
+  
+  .grid{
+    background-image: url(../../assets/back103.jpg);
+    z-index: 12;
+    border-radius: 20px;
+    width: 90%;
+    height: 100vh;
+    margin-top: 2%;
+    margin-left: 25%;
+  }
+  
+  .mhead{
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+   width: 220px;
+   height: 50px;
+  }
+  .addons{
+    margin-top: -3%;
+    margin-left: 65%;
+    display: flex;
+    flex-direction: column;
+  }
+  .addons .g{
+    color: rgb(247, 202, 3);
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+  }
+  .mtext{
+      text-align: justify;
+      top: 130px;
+      left: 10%;
+      z-index: 10;
+      width: 80%;
+      height: 550px;
+      overflow: hidden;
+  }
+  .mtext p{
+    font-size: 14px;
+      color: rgb(8, 6, 6);
+      position: relative;
+      line-height: 20px;
+  }
+  .mtext p span{
+    position: absolute;
+  }
+  
+  
+}
+@media only screen and (min-width:781px) and (max-width:1200px){
+  .fotres{
+    display: none;
+  }
+}

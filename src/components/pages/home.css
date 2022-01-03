@@ -1,0 +1,549 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.home{
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -12%;
+  width: 100%;
+  height: 100vh;
+}
+video{
+  object-fit: fill;
+  width: 100%;
+  height: 100vh;
+  margin-top: 6.2%;
+  margin-left: -0.35%;
+  position: relative;
+  
+}
+
+.glass{
+  position: relative;
+  height: 45vh;
+  width: 40%;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.50);
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+  z-index: 12;
+  border-radius: 20px;
+  top: 120px;
+  margin-top: -50%;
+  margin-left: 30%;
+  animation:  faded 8s forwards;
+  
+}
+.landing {
+  display: flex;
+  justify-content: center;
+left: 25%;
+top: 1%;
+}
+.logo{
+  position: absolute;
+  width: 200px;
+  height: 210px;
+  top: 25%;
+  left: 60%;
+  animation: rotatelogo 6s linear ;
+}
+h1 {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  color: #be1564;
+  transform: translate(-50%, -50%);
+  animation:  fade 8s forwards;
+  text-indent: 10px;
+  font-size: 30px;
+}
+h5{
+  position: absolute;
+  top: 50%;
+  left: 26.5%;
+  color: #be1564;
+  transform: translate(-50%, -50%);
+  animation:  fade 8s forwards;
+  text-indent: 10px;
+  font-size: 30px;
+}
+h6{
+  position: absolute;
+  top: 65%;
+  left: 7%;
+  color: #be1564;
+  transform: translate(-50%, -50%);
+  animation:  fade 6s forwards;
+  text-indent: 10px;
+  font-size: 30px;
+}
+
+@keyframes fade{
+  0%{
+    opacity: 0;
+    transform: scale3d(.75,.75,1);
+  }
+  100%{
+    opacity: 1;
+    transform: scale3d(1,1,1);
+  }
+}
+@keyframes rotatelogo{
+  0%{
+    opacity: 0;
+    ;}
+  100%{ 
+    opacity: 1;
+    transform: rotate(360deg);}
+}
+/*mobile*/
+@media only screen and (min-width:300px) and (max-width:420px){
+  .vbo{
+    height: 110vh;
+    width: 100%;
+    top: -20%;
+    position: relative;
+  }
+  .vido{
+    display: none;
+  }
+  .play{
+    object-fit: fill;
+    width: 100%;
+    height: 105vh;
+    top: 59%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+  }
+  .gla{
+    height: 70vh;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.50);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    z-index: 1;
+    border-radius: 20px;
+    margin-top: 55%;
+    margin-left: 10%;
+    animation:  faded 8s forwards;
+    position: absolute;
+  }
+  
+  .glass{
+    display: none;
+    
+  }
+  .lo{
+    position: absolute;
+    width: 150px;
+    height: 160px;
+    top: 5%;
+    left: 23%;
+    animation: rotatelogo 12s linear ;
+  }
+  .logo{
+    display: none;
+  }
+  h20 {
+    position: absolute;
+    top: 43%;
+    left: 22%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 8s forwards;
+    text-indent: 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  h21{
+    position: absolute;
+    top: 52%;
+    left: 42%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 8s forwards;
+    text-indent: 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  h26{
+    position: absolute;
+    top: 60%;
+    left: 19%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 6s forwards;
+    text-indent: 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width:421px) and (max-width:580px){
+  .home{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -12%;
+    width: 100%;
+    height: 110vh;
+  }
+  .vbo{
+    height: 110vh;
+    width: 100%;
+    position:absolute;
+    margin-top: -19%;
+    margin-left: 0%;
+  }
+  .vido{
+    display: none;
+  }
+  .play{
+    object-fit: fill;
+    width: 100%;
+    height: 105vh;
+    top: 59%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+  }
+  .gla{
+    height: 70vh;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.50);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    z-index: 1;
+    border-radius: 20px;
+    margin-top: 45%;
+    margin-left: 10%;
+    animation:  faded 8s forwards;
+    position: absolute;
+  }
+  
+  .glass{
+    display: none;
+    
+  }
+  .lo{
+    position: absolute;
+    width: 150px;
+    height: 160px;
+    top: 5%;
+    left: 30%;
+    animation: rotatelogo 12s linear ;
+  }
+  .logo{
+    display: none;
+  }
+  h20 {
+    position: absolute;
+    top: 45%;
+    left: 26%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 8s forwards;
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  h21{
+    position: absolute;
+    top: 53%;
+    left: 45%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 8s forwards;
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  h26{
+    position: absolute;
+    top: 60%;
+    left: 24%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 6s forwards;
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+}
+@media only screen and (min-width:580px) and (max-width:768px){
+  .home{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -12%;
+    width: 100%;
+    height: 110vh;
+  }
+  .vbo{
+    height: 100vh;
+    width: 100%;
+    position:absolute;
+    margin-top: -12%;
+    margin-left: 0%;
+  }
+  .vido{
+    display: none;
+  }
+  .play{
+    object-fit: fill;
+    width: 100%;
+    height: 106vh;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+  }
+  .gla{
+    height: 55vh;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.50);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    z-index: 1;
+    border-radius: 20px;
+    margin-top: 35%;
+    margin-left: 25%;
+    animation:  faded 8s forwards;
+    position: absolute;
+  }
+  .glass{
+    display: none;
+    
+  }
+  .lo{
+    position: absolute;
+    width: 150px;
+    height: 160px;
+    top: 5%;
+    left: 30%;
+    animation: rotatelogo 12s linear ;
+  }
+  .logo{
+    display: none;
+  }
+  h20 {
+    position: absolute;
+    top: 45%;
+    left: 26%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 8s forwards;
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  h21{
+    position: absolute;
+    top: 53%;
+    left: 45%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 8s forwards;
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  h26{
+    position: absolute;
+    top: 60%;
+    left: 24%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 6s forwards;
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width:769px) and (max-width:900px){
+  .home{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -12%;
+    width: 100%;
+    height: 110vh;
+  }
+  .vbo{
+    height: 110vh;
+    width: 100%;
+    position:absolute;
+    margin-top: -10%;
+    margin-left: 0%;
+  }
+  .vido{
+    display: none;
+  }
+  .play{
+    object-fit: fill;
+    width: 100%;
+    height: 109vh;
+    top: 62%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+  }
+  .gla{
+    height: 55vh;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.50);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    z-index: 1;
+    border-radius: 20px;
+    margin-top: 35%;
+    margin-left: 25%;
+    animation:  faded 8s forwards;
+    position: absolute;
+  }
+  
+  .glass{
+    display: none;
+    
+  }
+  .lo{
+    position: absolute;
+    width: 150px;
+    height: 160px;
+    top: 5%;
+    left: 30%;
+    animation: rotatelogo 12s linear ;
+  }
+  .logo{
+    display: none;
+  }
+  h20 {
+    position: absolute;
+    top: 45%;
+    left: 26%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 8s forwards;
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  h21{
+    position: absolute;
+    top: 53%;
+    left: 45%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 8s forwards;
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  h26{
+    position: absolute;
+    top: 60%;
+    left: 24%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 6s forwards;
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+@media only screen and (min-width:1300px) and (max-width:1650px){
+  .vbo{
+    display: none;
+  }
+}
+@media only screen and (min-width:900px) and (max-width:1200px){
+  .home{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -12%;
+    width: 100%;
+    height: 100vh;
+  }
+  video{
+    object-fit: fill;
+    width: 102%;
+    height: 106vh;
+    margin-top: 2%;
+    margin-left: -0.5%;
+    position: relative;
+  }
+  .vbo{
+    display: none;
+  }
+  
+  .glass{
+    height: 38vh;
+    width: 55%;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.50);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    z-index: 1;
+    border-radius: 20px;
+    margin-top: 6%;
+    margin-left: 30%;
+    animation:  faded 8s forwards;
+    position: absolute;
+  }
+  .landing {
+    display: flex;
+    justify-content: center;
+  left: 25%;
+  top: 1%;
+  }
+  .logo{
+    position: absolute;
+    width: 200px;
+    height: 210px;
+    top: 23%;
+    left: 60%;
+    animation: rotatelogo 12s linear ;
+  }
+  h1 {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 8s forwards;
+    text-indent: 10px;
+    font-size: 30px;
+  }
+  h5{
+    position: absolute;
+    top: 50%;
+    left: 26.5%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 8s forwards;
+    text-indent: 10px;
+    font-size: 30px;
+  }
+  h6{
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 6s forwards;
+    text-indent: 10px;
+    font-size: 30px;
+  }
+}

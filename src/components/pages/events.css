@@ -1,0 +1,384 @@
+.events{
+    margin-top: -12%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/back3\ c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nar{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    top: 30px;
+    margin-top: 10%;
+    margin-left: 0%;
+  }
+  .fotr{
+    margin-top: 56%;
+  }
+  .four{
+    top: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+  }
+  #svgss{
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    width: 500px;
+    height: 510px;
+    
+  }
+  #svgss path:nth-child(1){
+    stroke-dasharray: 100px;
+    
+  }
+  #svgss path:nth-child(2){
+    stroke-dasharray: 159.5px;
+    stroke-dashoffset: 159.5px;
+    animation: lines 2s ease forwards, fill 5s linear forwards 0.3s;
+  }
+  #svgss path:nth-child(3){
+    stroke-dasharray: 148.45px;
+    stroke-dashoffset: 148.45px;
+    animation: lines 2s ease forwards 0.3s,fill 5s linear forwards 0.6s;
+  }
+  #svgss path:nth-child(4){
+    stroke-dasharray: 134.5px;
+    stroke-dashoffset: 134.5px;
+    animation: lines 2s ease forwards 0.6s,fill 5s linear forwards 0.9s;
+  }
+  #svgss path:nth-child(5){
+    stroke-dasharray: 221.5px;
+    stroke-dashoffset: 221.5px;
+    animation: lines 2s ease forwards 0.9s,fill 5s linear forwards 1.2s;
+  }
+  #svgss path:nth-child(6){
+      stroke-dasharray: 163.45px;
+      stroke-dashoffset: 163.45px;
+      animation: lines 2s ease forwards 1.2s,fill 5s linear forwards 1.5s;
+  }
+  #svgss path:nth-child(7){
+    stroke-dasharray: 185.5px;
+    stroke-dashoffset: 185.5px;
+    animation: lines 2s ease forwards 1.5s,fill 5s linear forwards 1.8s;
+  }
+  #svgss path:nth-child(8){
+    stroke-dasharray: 134.45px;
+     stroke-dashoffset: 134.45px; 
+     animation: lines 2s ease forwards 1.8s,fill 5s linear forwards 2.1s;
+  }
+  #svgss path:nth-child(9){
+    stroke-dasharray: 163.45px;
+    stroke-dashoffset: 163.45px;
+    animation: lines 2s ease forwards 2.1s,fill 5s linear forwards 2.4s;
+  }
+  #svgss path:nth-child(10){
+    stroke-dasharray: 159.5px;
+    stroke-dashoffset: 159.5px;
+    animation: lines 2s ease forwards 2.4s,fill 5s linear forwards 2.7s;
+  }
+  #svgss path:nth-child(11){
+    stroke-dasharray: 185.5px;
+    stroke-dashoffset: 185.5px;
+    animation: lines 2s ease forwards 2.7s,fill 5s linear forwards 3s;
+  }
+  #sectitwo {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(../../assets/back108.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  #sectioone {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: antiquewhite;
+    background-image: url(../../assets/eventss4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .inform{
+    background-image: url(../../assets/eventss4.jpg);
+    z-index: 12;
+    border-radius: 20px;
+      width: 100%;
+      height: 100vh;
+      top: 110%;
+      color: aliceblue;
+      clip-path:circle(30%);
+      background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h29{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bolder;
+    animation: animate 10s linear infinite;
+  }
+  h52{
+    font-size: 35px;
+    color: antiquewhite;
+    top: 40%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder;
+  animation: animate 10s linear infinite;
+}
+  h37{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    top: 49.5%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    animation: animate 10s linear infinite;
+}
+h39{
+  font-size: 30px;
+    color: rgb(0, 0, 0);
+    top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    animation: animate 10s linear infinite;
+}
+h40{
+  font-size: 30px;
+    color: antiquewhite;
+    top: 50.5%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-weight: bolder;
+  animation: animate 10s linear infinite;
+}
+h41{
+  font-size: 30px;
+    color: antiquewhite;
+    top: 59%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-weight: bolder;
+  animation: animate 10 s linear infinite;
+}
+  .five{
+    background-image: url(../../assets/back108.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      width: 100%;
+      height: 100vh;
+      top: 110%;
+      color: aliceblue;
+      clip-path:circle(30%);
+  }
+  @keyframes animate
+  {
+    0%,18%,20%{
+      color: antiquewhite;
+      text-shadow: none;
+    }
+    100%{
+      color: rgb(255, 255, 255);
+      text-shadow: 0 0 10px #03bcf4,0 0 20px #03bcf4,0 0 40px #03bcf4,0 0 80px #03bcf4,0 0 1600px #03bcf4;
+    }
+  }
+  @media only screen and (min-width:320px) and (max-width:480px){
+    #svgss{
+      position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    width: 300px;
+    height: 310px;
+    
+    }
+    h29{
+      font-size: 12px;
+      color: antiquewhite;
+      top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  h37{
+    font-size: 12px;
+    color: antiquewhite;
+    top: 54%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+h40{
+  font-size: 14px;
+    color: antiquewhite;
+    top: 54%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+h39{
+  font-size: 12px;
+    color: antiquewhite;
+    top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+h41{
+  font-size: 14px;
+    color: antiquewhite;
+    top: 63%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+h52{
+  font-size: 14px;
+    color: antiquewhite;
+    top: 45%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+    .events{
+      margin-top: -12%;
+      width: 100%;
+      height: 100vh;
+      background-image: url(../../assets/Patshala1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .fotr{
+    background-color: azure;
+    width: 100%;
+    margin-left: 1%;
+  }
+   
+  }
+  @media only screen and (min-width:480px) and (max-width:680px){
+    h29{
+      font-size: 14px;
+      color: antiquewhite;
+      top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  h39{
+    font-size: 12px;
+      color: antiquewhite;
+      top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  h37{
+    font-size: 14px;
+    color: antiquewhite;
+    top: 54%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+h40{
+  font-size: 14px;
+    color: antiquewhite;
+    top: 54%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+h41{
+  font-size: 14px;
+    color: antiquewhite;
+    top: 59%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+    .events{
+      margin-top: -12%;
+      width: 100%;
+      height: 100vh;
+      background-image: url(../../assets/Patshala1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .fotr{
+    margin-top: -30%;
+  }
+  }
+  @media only screen and (min-width:681px) and (max-width:800px){
+    h29{
+      font-size: 14px;
+      color: antiquewhite;
+      top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  h39{
+    font-size: 12px;
+      color: antiquewhite;
+      top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  h34{
+    font-size: 14px;
+    color: antiquewhite;
+    top: 54%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+h40{
+  font-size: 14px;
+    color: antiquewhite;
+    top: 54%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+h41{
+  font-size: 14px;
+    color: antiquewhite;
+    top: 59%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+    .events{
+      margin-top: -12%;
+      width: 100%;
+      height: 100vh;
+      background-image: url(../../assets/Patshala1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .fotr{
+    margin-top: -70%;
+  }
+  }
